@@ -5,6 +5,10 @@ class Hash
     array1 = []
     self.each do |key, value|
       arguments.each do |argument|
-      
+        if argument == value
+          array1.push(key)
+        end
+      end
+    end
   end
 end
