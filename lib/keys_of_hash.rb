@@ -10,5 +10,6 @@ class Hash
         end
       end
     end
+    array1
   end
 end
